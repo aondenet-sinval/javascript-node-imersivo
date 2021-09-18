@@ -1,5 +1,6 @@
 # Imersão no código: Javascript e Node.Js
-Exemplo de integração do Pug com Express com MongoDB.
+
+Alguns scripts desenvolvidos e bem comentados.
 
 ## PRIMEIRO EXEMPLO:
 
