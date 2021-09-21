@@ -25,5 +25,5 @@ Alguns scripts desenvolvidos e bem comentados.
 
 **Consumindo api Star Wars SWAPI**
 
-Usando listas com: **for, for in, for of e map**. 
+Usando listas com: **for, for in, for of e map. Pasta => 03-node-arrays**. 
 

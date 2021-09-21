@@ -15,7 +15,7 @@ async function main (){
 		const result = await service.obterPessoas('a');
 		
 		const names = result.results.meuMap(function(pessoa, indice){
-			return pessoa.name;
+			return `${indice}: ${pessoa.name}`
 		})
 		console.log('Names: ', names);
 	}catch(error){
