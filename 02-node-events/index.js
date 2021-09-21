@@ -33,7 +33,7 @@ stdin.addListener('data', function(value){
 */
 //-------
 //3º exemplo:
-/*
+console.time('aqui-metade')
 const stdin = process.openStdin()
 function main(){
 	return new Promise(function(resolve,reject){
@@ -42,9 +42,11 @@ function main(){
 		})
 	})
 }
+
 main().then(function(resultado){
 	//Pegando o que for digitado
 	//Com promise só retorna uma vez
 	console.log('resultado', resultado.toString())
 })
-*/
+
+console.timeEnd('aqui-metade')

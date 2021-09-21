@@ -20,3 +20,10 @@ Alguns scripts desenvolvidos e bem comentados.
 **Usando EventEmitter para monitoramento de eventos, pasta => 02-node-events**
 
 **NOTA: ** os códigos acima são executados sem navegador.
+
+## QUINTO EXEMPLO:
+
+**Consumindo api Star Wars SWAPI**
+
+Usando listas com: **for, for in, for of e map**. 
+
