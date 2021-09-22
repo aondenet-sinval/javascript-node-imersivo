@@ -29,6 +29,6 @@ Usando listas com: **for, for in, for of e map. Pasta => 03-node-arrays**.
 
 ## SEXTO EXEMPLO:
 
-**Usando testes automatizados**
+**Usando testes automatizados / Desenvolvimento orientado a testes: TDD**
 
 Próximo MOCHA...
