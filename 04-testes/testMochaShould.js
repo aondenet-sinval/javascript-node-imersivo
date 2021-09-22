@@ -1,16 +1,23 @@
 const should = require('should')
-const findSoma = require('./findSoma')
-//Função findSoma(a,b)
-const findMultply = require('./findMultply')
-//Função findMultply(a,b)
+//Importando funções para teste
+const calculadora = require('./calculadora')
+
 
 describe('find list', ()=>{
-	//Testando minhas funções de soma: 
+	//Testando minha função de soma: 
 	it('Testando retorno da soma de valores: ',()=>{
-		findSoma(2,8).should.be.equal(10)
+		calculadora.findSoma(2,8).should.be.equal(10)
 	})
-	//Testando minhas funções de multiplicação: 	
+	//Testando minha função de multiplicação: 	
 	it('Testando mutiplicação: ', ()=> {
-		findMultply(2,8).should.be.equal(16)
+		calculadora.findMultply(2,8).should.be.equal(16)
+	})
+	//Testando minha função de subtração: 	
+	it('Testando subtração: ', ()=> {
+		calculadora.findSub(8,4).should.be.equal(4)
+	})
+	//Testando minha função de divisão: 	
+	it('Testando divisão: ', ()=> {
+		calculadora.findDivision(8,4).should.be.equal(2)
 	})
 })
