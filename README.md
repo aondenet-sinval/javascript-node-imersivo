@@ -27,3 +27,8 @@ Alguns scripts desenvolvidos e bem comentados.
 
 Usando listas com: **for, for in, for of e map. Pasta => 03-node-arrays**. 
 
+## SEXTO EXEMPLO:
+
+**Usando testes automatizados**
+
+Próximo MOCHA...
