@@ -20,4 +20,16 @@ describe('find list', ()=>{
 	it('Testando divisão: ', ()=> {
 		calculadora.findDivision(8,4).should.be.equal(2)
 	})
+	//Testando minha se não retorna um número infinito: 	
+	it('Se o retorno não é infinito o teste passa: ', ()=> {
+		calculadora.findDivision(8,4).should.not.be.Infinity();
+	})
+	//Verificando se valor passado não é false: 	
+	it('Se NaN o teste passa: ', ()=> {
+		calculadora.findDivision(0,0).should.be.eql(NaN);
+	})
+	//Verificando se valor passado não é false: 	
+	it('Se não é false o teste passa: ', ()=> {
+		calculadora.findDivision(0,0).should.not.be.false();
+	})
 })

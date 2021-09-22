@@ -31,4 +31,7 @@ Usando listas com: **for, for in, for of e map. Pasta => 03-node-arrays**.
 
 **Usando testes automatizados / Desenvolvimento orientado a testes: TDD**
 
-Próximo MOCHA...
+Usando mocha com showld
+
+## Referências de algumas documentações
+[Documentação do Showld](https://shouldjs.github.io/)
