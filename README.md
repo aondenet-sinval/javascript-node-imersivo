@@ -31,7 +31,9 @@ Usando listas com: **for, for in, for of e map. Pasta => 03-node-arrays**.
 
 **Usando testes automatizados / Desenvolvimento orientado a testes: TDD**
 
-Usando mocha com showld
+Usando mocha com showld.
+
+Usando mocha sem módulo adicional apenas assert, não precisa instalar nada, pois o assert já vem no Node. 
 
 ## Referências de algumas documentações
 [Documentação do Showld](https://shouldjs.github.io/)
